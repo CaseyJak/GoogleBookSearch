@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import DeleteBtn from "../components/DeleteBtn";
-import SaveBtn from "../components/SaveBtn/index"
+import SaveBtn from "../components/SaveBtn/SaveBtn"
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
@@ -77,7 +77,7 @@ class Books extends Component {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h1>Google Search a book!</h1>
+              <h1>What Books Should I Read?</h1>
             </Jumbotron>
             <form>
               <Input
